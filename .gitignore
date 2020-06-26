@@ -1,0 +1,15 @@
+# DragonRuby
+/dragonruby*
+/font.ttf
+/logs
+/tmp
+/exceptions
+/console_history.txt
+/.dragonruby
+/builds
+/console-logo.png
+/open-source-licenses.txt
+
+# ToR
+/guides
+/mygame/app/texts.rb
