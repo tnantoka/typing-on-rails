@@ -34,7 +34,6 @@ class Game
         state.input += char
       end
     else
-      puts "next"
       state.total_input += state.text.size
       state.text = TEXTS.sample
       state.input = ''
