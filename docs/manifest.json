@@ -1,0 +1,22 @@
+{
+	"app/main.rb" : { "filesize" : 4281, "filetime" : 1593179347 },
+	"app/texts.rb" : { "filesize" : 17438, "filetime" : 1593179347 },
+	"app/primitives.rb" : { "filesize" : 973, "filetime" : 1593179347 },
+	"font.ttf" : { "filesize" : 3146844, "filetime" : 1593179347 },
+	"open-source-licenses.txt" : { "filesize" : 9788, "filetime" : 1593179347 },
+	"sprites/bullet.png" : { "filesize" : 256, "filetime" : 1593179347 },
+	"sprites/enemy.png" : { "filesize" : 586, "filetime" : 1593179347 },
+	"sprites/player.png" : { "filesize" : 585, "filetime" : 1593179347 },
+	"fonts/Hack-v3.003-ttf/LICENSE.md" : { "filesize" : 3744, "filetime" : 1593179347 },
+	"fonts/Hack-v3.003-ttf/ttf/Hack-Regular.ttf" : { "filesize" : 309408, "filetime" : 1593179347 },
+	"fonts/Hack-v3.003-ttf/ttf/Hack-Bold.ttf" : { "filesize" : 317628, "filetime" : 1593179347 },
+	"fonts/Press_Start_2P/OFL.txt" : { "filesize" : 4507, "filetime" : 1593179347 },
+	"fonts/Press_Start_2P/PressStart2P-Regular.ttf" : { "filesize" : 116008, "filetime" : 1593179347 },
+	"metadata/icon.png" : { "filesize" : 4135, "filetime" : 1593179347 },
+	"metadata/DRAGONRUBY_PRODUCTION_BUILD" : { "filesize" : 0, "filetime" : 1593179347 },
+	"metadata/game_metadata.txt" : { "filesize" : 118, "filetime" : 1593179347 },
+	"dragonruby.png" : { "filesize" : 14417, "filetime" : 1593179347 },
+	"dragonruby-controller.png" : { "filesize" : 32688, "filetime" : 1593179347 },
+	"console-logo.png" : { "filesize" : 25034, "filetime" : 1593179347 },
+	"" : {}
+}

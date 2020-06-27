@@ -1,0 +1,7 @@
+devid=tnantoka
+devtitle=tnantoka
+gameid=typing-on-rails
+gametitle=Typing on Rails
+version=0.1
+icon=metadata/icon.png
+
