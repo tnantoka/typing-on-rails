@@ -35,7 +35,7 @@ class Line < Primitive
 end
 
 class Label < Primitive
-  @@attr_keys = %i[x y text size_enum alignment_enum font r g b a]
+  @@attr_keys = %i[x y text size_enum alignment_enum vertical_alignment_enum font r g b a]
   attr_accessor(*@@attr_keys)
 end
 

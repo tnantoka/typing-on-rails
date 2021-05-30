@@ -52,6 +52,7 @@ class Game
       y: grid.center_y,
       text: state.text,
       alignment_enum: 1,
+      vertical_alignment_enum: 1,
       font: FONTS[:code],
       size_enum: 10,
       r: 150,
@@ -64,6 +65,7 @@ class Game
       y: grid.center_y,
       text: state.input + ' ' * (state.text.size - state.input.size),
       alignment_enum: 1,
+      vertical_alignment_enum: 1,
       font: FONTS[:code_bold],
       size_enum: 10
     )
@@ -73,6 +75,7 @@ class Game
       y: grid.center_y - 20,
       text: ' ' * state.input.size + '_' + ' ' * [state.text.size - state.input.size - 1, 0].max,
       alignment_enum: 1,
+      vertical_alignment_enum: 1,
       font: FONTS[:code],
       size_enum: 10
     )
@@ -88,6 +91,7 @@ class Game
       y: grid.h * 0.9,
       text: [minutes, seconds, milliseconds10].map { |t| '%02d' % t }.join(':'),
       alignment_enum: 0,
+      vertical_alignment_enum: 1,
       font: FONTS[:base],
       size_enum: -1
     )
@@ -97,6 +101,7 @@ class Game
       y: grid.h * 0.9,
       text: "WPM: %.1f" % state.wpm.to_s,
       alignment_enum: 2,
+      vertical_alignment_enum: 1,
       font: FONTS[:base],
       size_enum: -1
     )

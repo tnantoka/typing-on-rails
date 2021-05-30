@@ -27,6 +27,14 @@ $ cp /path/to/dragonruby-macos/font.ttf .
 $ ./dragonruby
 ```
 
+## Run with smaug
+
+```bash
+cd mygame
+smaug install
+smaug run
+```
+
 ## Package
 
 ```
