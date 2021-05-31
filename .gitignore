@@ -13,3 +13,6 @@
 # ToR
 /guides
 /mygame/app/texts.rb
+/mygame/exceptions/*.txt
+/mygame/logs/*.txt
+/mygame/builds/*

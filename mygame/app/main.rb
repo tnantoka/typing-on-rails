@@ -1,4 +1,3 @@
-require 'app/primitives.rb'
 require 'app/texts.rb'
 
 class Game
@@ -47,35 +46,38 @@ class Game
   def output
     outputs.background_color = [245, 245, 245]
 
-    outputs.labels << Label.new(
+    outputs.labels << {
       x: grid.center_x,
       y: grid.center_y,
       text: state.text,
       alignment_enum: 1,
+      vertical_alignment_enum: 1,
       font: FONTS[:code],
       size_enum: 10,
       r: 150,
       g: 150,
       b: 150
-    )
+    }.label
 
-    outputs.labels << Label.new(
+    outputs.labels << {
       x: grid.center_x,
       y: grid.center_y,
       text: state.input + ' ' * (state.text.size - state.input.size),
       alignment_enum: 1,
+      vertical_alignment_enum: 1,
       font: FONTS[:code_bold],
       size_enum: 10
-    )
+    }.label
 
-    outputs.labels << Label.new(
+    outputs.labels << {
       x: grid.center_x,
       y: grid.center_y - 20,
       text: ' ' * state.input.size + '_' + ' ' * [state.text.size - state.input.size - 1, 0].max,
       alignment_enum: 1,
+      vertical_alignment_enum: 1,
       font: FONTS[:code],
       size_enum: 10
-    )
+    }.label
 
 
     time = elapsed_time
@@ -83,23 +85,25 @@ class Game
     seconds = time.to_i % 60
     milliseconds10 = time * 100 % 100
 
-    outputs.labels << Label.new(
+    outputs.labels << {
       x: grid.w * 0.1,
       y: grid.h * 0.9,
       text: [minutes, seconds, milliseconds10].map { |t| '%02d' % t }.join(':'),
       alignment_enum: 0,
+      vertical_alignment_enum: 1,
       font: FONTS[:base],
       size_enum: -1
-    )
+    }.label
 
-    outputs.labels << Label.new(
+    outputs.labels << {
       x: grid.w * 0.9,
       y: grid.h * 0.9,
       text: "WPM: %.1f" % state.wpm.to_s,
       alignment_enum: 2,
+      vertical_alignment_enum: 1,
       font: FONTS[:base],
       size_enum: -1
-    )
+    }.label
   end
 
   def serialize
